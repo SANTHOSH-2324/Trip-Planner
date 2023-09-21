@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="3"
+    android:columnCount="2"
+    android:id="@+id/gridLayout1" >
+    <ImageView
+        android:src="@drawable/alapuzha"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView1" />
+    <ImageView
+        android:src="@drawable/allepey"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView2" />
+    <ImageView
+        android:src="@drawable/Munnar"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView3" />
+    <ImageView
+        android:src="@drawable/thekkady"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView4" />
+    <ImageView
+        android:src="@drawable/vagamon"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView5" />
+    <ImageView
+        android:src="@drawable/varkala"
+        android:layout_height="180dp"
+        android:layout_width="180dp"
+        android:layout_margin="7dp"
+        android:id="@+id/imageView6" />
+
+</GridLayout>

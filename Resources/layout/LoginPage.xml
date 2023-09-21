@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   
+
+    <ImageView
+        android:src="@drawable/trip_logo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_weight="3"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        android:text="Welcome buddy !!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:id="@+id/textView1" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="horizontal">
+     <ImageView
+        android:src="@drawable/login"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded"
+        android:layout_height="wrap_content"
+        android:id="@+id/login" />
+        <ImageView
+        android:src="@drawable/register"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded"
+        android:layout_height="wrap_content"
+        android:id="@+id/register" />
+        </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"/>
+    <VideoView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"/>
+</LinearLayout>
